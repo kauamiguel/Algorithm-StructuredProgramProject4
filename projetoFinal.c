@@ -11,13 +11,15 @@ int main(){
     float pesoGuindaste;
 
     printf("Digite o valor da altura: \n");
-    scanf("%f",altura);
+    scanf("%f",&altura);
     printf("Digite o valor da largura: \n");
-    scanf("%f",largura);
+    scanf("%f",&largura);
     printf("Digite o valor da comprimento: \n");
-    scanf("%f",comprimento);
+    scanf("%f",&comprimento);
     volumeTotal = altura * comprimento * largura;
 
     pesoGuindaste = calcularPeso(volumeTotal);
+
+    
 
 }
