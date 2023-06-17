@@ -31,10 +31,12 @@ int main(){
             printf("Digite o valor da comprimento: \n");
             scanf("%f",&comprimento);
 
-    //Calculando o peso do guindaste
-    volumeTotal = altura * comprimento * largura;
-    pesoGuindaste = calcularPeso(volumeTotal);
+            //Calculando o peso do guindaste
+            volumeTotal = altura * comprimento * largura;
+            pesoGuindaste = calcularPeso(volumeTotal);
+        break;
 
-    
-
+        case 2:
+            exit(0);
+        break;
 }
