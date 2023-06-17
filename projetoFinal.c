@@ -10,7 +10,7 @@ int main(){
     float altura, largura, comprimento, volumeTotal;
     float pesoGuindaste;
 
-    system("02");
+    system("color 02");
 
     //pegando as informações do usuario
     printf("Digite o valor da altura: \n");
