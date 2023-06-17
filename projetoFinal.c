@@ -48,15 +48,15 @@ int main()
                 }
                 else if (volumeTotal > 2000 && volumeTotal <= 4000)
                 {
-                    printf("Guindaste a ser utilizado: G2\n");
+                    printf("Guindaste a ser utilizado: G3\n");
                 }
                 else if (volumeTotal > 4000 && volumeTotal <= 8000)
                 {
-                    printf("Guindaste a ser utilizado: G3\n");
+                    printf("Guindaste a ser utilizado: G2\n");
                 }
                 else
                 {
-                    printf("Não foi possivel localizar o guindaste a ser usado");
+                    printf("O guingade a ser utilizado é o G2");
                 }
     
                 exit(0);
