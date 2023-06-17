@@ -35,6 +35,13 @@ int main(){
             volumeTotal = altura * comprimento * largura;
             pesoGuindaste = calcularPeso(volumeTotal);
 
+            if (volumeTotal <= 45) {
+        printf("Guindaste a ser utilizado: G1\n");
+    } else if (volumeTotal > 45 && volumeTotal <= 86) {
+        printf("Guindaste a ser utilizado: G2\n");
+    } else {
+        printf("Guindaste a ser utilizado: G3\n");
+    }
             //G1 suporta 45 kg; G2 suporta 86 kg e G3 145 KG
         break;
 
