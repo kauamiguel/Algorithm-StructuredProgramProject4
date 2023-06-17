@@ -21,6 +21,7 @@ int main(){
     scanf("%f",&comprimento);
 
     //Calculando o peso do guindaste
+    //Valores dos guindastes: G1=1000Kg, G2=2000Kg e G3=3000Kg
     volumeTotal = altura * comprimento * largura;
     pesoGuindaste = calcularPeso(volumeTotal);
 
