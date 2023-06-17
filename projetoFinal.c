@@ -40,29 +40,37 @@ int main()
             volumeTotal = altura * comprimento * largura;
             pesoGuindaste = calcularPeso(volumeTotal);
 
-        // G1 suporta 2000 kg; G2 suporta 4000 kg e G3 8000 KG
+            // G1 suporta 2000 kg; G2 suporta 4000 kg e G3 8000 KG
         
-        if (volumeTotal <= 2000)
-        {
-            printf("Guindaste a ser utilizado: G1\n");
-        }
-        else if (volumeTotal > 2000 && volumeTotal <= 4000)
-        {
-            printf("Guindaste a ser utilizado: G2\n");
-        }
-        else if (volumeTotal > 4000 && volumeTotal <= 8000)
-        {
-            printf("Guindaste a ser utilizado: G3\n");
-        }
-        else
-        {
-            printf("Não foi possivel localizar o guindaste a ser usado");
-        }
-        
+            if (volumeTotal <= 2000)
+            {
+                printf("Guindaste a ser utilizado: G1\n");
+            }
+            else if (volumeTotal > 2000 && volumeTotal <= 4000)
+            {
+                printf("Guindaste a ser utilizado: G2\n");
+            }
+            else if (volumeTotal > 4000 && volumeTotal <= 8000)
+            {
+                printf("Guindaste a ser utilizado: G3\n");
+            }
+            else
+            {
+                printf("Não foi possivel localizar o guindaste a ser usado");
+            }
+
+            exit(0);
         break;
 
         case 2:
+            printf("Encerrando o programa\n");
             exit(0);
+        break;
+
+        default:
+            printf("Opcao invalida!\n");
+            system("pause\n");
+            system("cls");
         break;
     }
     }while(escolha != 1 || escolha != 2);
