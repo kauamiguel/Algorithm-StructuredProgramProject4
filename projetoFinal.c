@@ -38,7 +38,16 @@ int main(){
                 pesoGuindaste = calcularPeso(volumeTotal);
 
                 //G1 suporta 45 kg; G2 suporta 86 kg e G3 145 KG
-                printf("Peso Guindaste: %.2f",pesoGuindaste);
+
+                if (volumeTotal <= 45) {
+                    printf("Guindaste a ser utilizado: G1\n");
+                } else if (volumeTotal > 45 && volumeTotal <= 86) {
+                    printf("Guindaste a ser utilizado: G2\n");
+                } else if  (volumeTotal > 86 && volumeTotal <= 145){
+                    printf("Guindaste a ser utilizado: G3\n");
+                } else {
+                    printf("Não foi possivel localizar o guindaste a ser usado");
+                }
 
                 exit(0);
             break;
