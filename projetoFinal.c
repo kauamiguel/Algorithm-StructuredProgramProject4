@@ -8,38 +8,52 @@ float calcularPeso(float V){
 
 int main(){
     int escolha;
+    system("color 02");
 
-    printf("Digite 1 para acessar o programa e 2 para encerrar\n");
-    printf("Escolha: ");
-    scanf("%d",&escolha);
+    do{
+        printf("Digite 1 para acessar o programa e 2 para encerrar\n");
+        printf("Escolha: ");
+        scanf("%d",&escolha);
 
-    switch(escolha){
-        case 1:
-            system("cls");
+        switch(escolha){
+            case 1:
+                system("cls");
 
-            //Variaveis do volume
-            float altura, largura, comprimento, volumeTotal;
-            float pesoGuindaste;
+                //Variaveis do volume
+                float altura, largura, comprimento, volumeTotal;
+                float pesoGuindaste;
 
-            system("color 02");
+                system("color 02");
 
-            //pegando as informações do usuario
-            printf("Digite o valor da altura: \n");
-            scanf("%f",&altura);
-            printf("Digite o valor da largura: \n");
-            scanf("%f",&largura);
-            printf("Digite o valor da comprimento: \n");
-            scanf("%f",&comprimento);
+                //pegando as informações do usuario
+                printf("Digite o valor da altura: \n");
+                scanf("%f",&altura);
+                printf("Digite o valor da largura: \n");
+                scanf("%f",&largura);
+                printf("Digite o valor da comprimento: \n");
+                scanf("%f",&comprimento);
 
-            //Calculando o peso do guindaste
-            volumeTotal = altura * comprimento * largura;
-            pesoGuindaste = calcularPeso(volumeTotal);
+                //Calculando o peso do guindaste
+                volumeTotal = altura * comprimento * largura;
+                pesoGuindaste = calcularPeso(volumeTotal);
 
-            //G1 suporta 45 kg; G2 suporta 86 kg e G3 145 KG
-        break;
+                //G1 suporta 45 kg; G2 suporta 86 kg e G3 145 KG
+                printf("Peso Guindaste: %.2f",pesoGuindaste);
 
-        case 2:
-            exit(0);
-        break;
-    }
+                exit(0);
+            break;
+
+            case 2:
+                system("cls");
+
+                printf("Encerrando o programa");
+                exit(0);
+            break;
+
+            default:
+                printf("Opcao invalida\n");
+                system("cls");
+            break;
+        }
+    }while(escolha != 1 || escolha != 2);
 }
