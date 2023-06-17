@@ -1,4 +1,4 @@
-# Projeto Final de Algoritmo e Programação - Professor Valdemir
+# Projeto Final de Algoritmo e Programação estruturada - Professor Valdemir
 Este repositório contém o projeto final desenvolvido para a disciplina de Algoritmo e Programação, sob a orientação do professor Valdemir. O objetivo deste projeto é aplicar os conceitos e técnicas aprendidos ao longo do curso, demonstrando habilidades de resolução de problemas, programação estruturada e boas práticas de codificação.
 
 # Orientação
