@@ -34,6 +34,8 @@ int main(){
             //Calculando o peso do guindaste
             volumeTotal = altura * comprimento * largura;
             pesoGuindaste = calcularPeso(volumeTotal);
+
+            //G1 suporta 45 kg; G2 suporta 86 kg e G3 145 KG
         break;
 
         case 2:
