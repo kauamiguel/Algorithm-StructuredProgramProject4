@@ -13,7 +13,7 @@ int main()
     system("color 02");
 
     do{
-            printf("Digite 1 para acessar o programa e 2 para encerrar\n");
+            printf("1- para acessar o programa\n2- para encerrar\n");
             printf("Escolha: ");
             scanf("%d", &escolha);
     
@@ -26,7 +26,6 @@ int main()
                 float altura, largura, comprimento, volumeTotal;
                 float pesoGuindaste;
     
-                system("color 02");
     
                 // pegando as informações do usuario
                 printf("Digite o valor da altura: \n");
@@ -73,5 +72,5 @@ int main()
                 system("cls");
             break;
         }
-    }while(escolha != 1 || escolha != 2);
+    }while(escolha == 1);
 }
