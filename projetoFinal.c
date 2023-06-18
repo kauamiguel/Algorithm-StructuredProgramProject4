@@ -13,11 +13,8 @@ int main()
     system("color 02"); 
     
          //UTILIZAR ESSA IMAGEM SE USAR WINDOWS      
-<<<<<<< HEAD
-/*    printf("        ######  ##### ##########\n");
-=======
+     printf("        ######  ##### ##########\n");
     printf("        ######  ##### ##########\n");
->>>>>>> f30506e (putting a default image)
     printf("    ######      #####  #######################\n");
     printf("#######         #####           ################\n");
     printf("#######                              ###############\n");
@@ -40,11 +37,8 @@ int main()
     printf("       ######    ######    ####\n");
     printf("      ####       ######     ####\n");
     printf("     #####       ######      ####\n");
-<<<<<<< HEAD
-    printf("    ######       #######     #####\n"); */
-=======
     printf("    ######       #######     #####\n"); 
->>>>>>> f30506e (putting a default image)
+    printf("    ######       #######     #####\n"); 
 
     do{
             printf("1- para acessar o programa\n2- para encerrar\n");
