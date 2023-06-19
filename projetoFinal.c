@@ -3,6 +3,10 @@
 #include <unistd.h>
 #define R 25
 
+/*Nomes do grupo:
+JOEL ALVES DOS SANTOS (UC22102248) , ÍTALO CEZAR EUGÊNIO DE SANTANA (UC22102126),
+LUÍZ HENRIQUE SOUZA OLIVEIRA DOS SANTOS (UC22101329), KAUÃ MIGUEL COSTA MATOS (UC22101679)*/
+
 float calcularPeso(float V)
 {
     return V * R;
