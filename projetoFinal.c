@@ -7,15 +7,19 @@
 JOEL ALVES DOS SANTOS (UC22102248) , ÍTALO CEZAR EUGÊNIO DE SANTANA (UC22102126),
 LUÍZ HENRIQUE SOUZA OLIVEIRA DOS SANTOS (UC22101329), KAUÃ MIGUEL COSTA MATOS (UC22101679)*/
 
+//Função do calculo
 float calcularPeso(float V)
 {
     return V * R;
 }
 
+//Função principal
 int main(void)
 {
-
+    //Declarando a variável escolha para o switch
     int escolha;
+
+    //System color para definir uma cor
     system("color 02");
 
     for (int i = 0; i < 1; i++)
